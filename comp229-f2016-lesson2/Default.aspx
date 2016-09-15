@@ -3,9 +3,11 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
         <div class="row">
-            <div class="col-md-offset-4 col-md-6">
-                <h1> Hello World!</h1>
-         </div>
+            <div class="jumbotron">
+  <h1>Hello, world!</h1>
+
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
         </div>
     </div>
 </asp:Content>
