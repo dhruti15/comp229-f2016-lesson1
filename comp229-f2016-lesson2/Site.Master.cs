@@ -12,7 +12,25 @@ namespace comp229_f2016_lesson2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Debug.WriteLine(Page.Title);
+            switch(Page.Title)
+            {
+                case "Home":
+                    home.Attributes.Add("class", "active");
+                    break;
+                case "Products":
+                    home.Attributes.Add("class", "active");
+                    break;
+                case "Services":
+                    home.Attributes.Add("class", "active");
+                    break;
+                case "About":
+                    home.Attributes.Add("class", "active");
+                    break;
+                case "Contact":
+                    home.Attributes.Add("class", "active");
+                    break;
+
+            }
 
         }
     }
