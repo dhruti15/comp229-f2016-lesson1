@@ -11,7 +11,7 @@ namespace comp229_f2016_lesson2
 {
 
 
-    public partial class Default
+    public partial class About
     {
     }
 }
